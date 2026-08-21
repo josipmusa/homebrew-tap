@@ -1,6 +1,6 @@
 cask "beanvan" do
-  version "0.1.2"
-  sha256 "c6720746cc561cff768cd3bad81a4152f859dbee4e24c394c8c28912c66f144a"
+  version "0.1.3"
+  sha256 "6345fd63ac38397f63e36833fbd6da3c1cbde348928a27724a9df4d8925c70e7"
 
   url "https://github.com/josipmusa/beanvan/releases/download/v#{version}/Beanvan-#{version}-macos-arm64.zip",
       verified: "github.com/josipmusa/beanvan/"
