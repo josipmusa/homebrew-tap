@@ -1,6 +1,6 @@
 cask "watt" do
-  version "1.0.8"
-  sha256 "f6bf633a0e8136ec9b0a9415da82ce60d5102f9f189c6cc32dd86dfbce4d4766"
+  version "1.0.9"
+  sha256 "a70641a9c251ebb0f621c7651235ecf5194e97988b5e54b3619f2cec5e559b70"
 
   url "https://github.com/josipmusa/watt/releases/download/v#{version}/Watt-#{version}-macos-arm64.zip",
       verified: "github.com/josipmusa/watt/"
