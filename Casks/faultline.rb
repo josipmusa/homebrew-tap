@@ -4,21 +4,21 @@ cask "faultline" do
 
   on_macos do
     on_arm do
-      sha256 "523a36dd12725e46cfe1e8e337dc548d83925f1dbf3f65cff145b293cbde596a"
+      sha256 "368d3cee2ee73bfb896ad5c006d3e81f931c24072e996d91c32c63b7a8095a80"
       url "https://github.com/josipmusa/faultline/releases/download/v#{version}/faultline_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b9f2595b99d39fcfcd775205b407f9f95a91206128849317278e30bc24afe827"
+      sha256 "60459bef6daa6935b1558c5269622f4ef31849292860028571d1f0c80cb03ac5"
       url "https://github.com/josipmusa/faultline/releases/download/v#{version}/faultline_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "800c15fb6c2162ab3e3f16eb341d5682a34084170eb77808c6d22e5b29857d87"
+      sha256 "3a1bd250e290a7e937a69ce7dcc653900e6eff99c0402d7487b5fadeb3b0e8e6"
       url "https://github.com/josipmusa/faultline/releases/download/v#{version}/faultline_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "e493481ace469f724d72b81a78d781322703bf77e216d21ef87886a2a873ec51"
+      sha256 "5d223ae8be69ddded58a120af40f2856dac2b387d87475cb0a93aa8d064cbd89"
       url "https://github.com/josipmusa/faultline/releases/download/v#{version}/faultline_#{version}_linux_amd64.tar.gz"
     end
   end
